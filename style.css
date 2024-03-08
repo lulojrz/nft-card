@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.card {
+    margin: auto;
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    border-radius: 5%;
+    padding: 10px;
+}
+
+.top-card {
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    width: 90%;
+    margin: auto;
+
+
+}
+
+.top-card img {
+    width: 100%;
+    display: block;
+
+}
+
+.icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: hsla(178, 100%, 50%, 0.5);
+    display: none;
+
+
+
+}
+
+.icon img {
+    position: absolute;
+    width: 20%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.top-card:hover .icon {
+    display: block;
+    cursor: pointer;
+}
+
+.center-card {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.center-card h2 {
+
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+
+}
+.center-card h2:hover{
+   color: hsla(178, 100%, 50%, 0.5);
+   cursor: pointer;
+}
+
+.center-card h5 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+}
+
+.first-list {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    padding: 5px;
+}
+
+.first-item {
+    justify-content: left;
+
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: hsla(178, 100%, 50%, 0.5);
+    gap: 5px;
+    
+
+}
+.first-item img{
+    width: 10%;
+}
+
+.second-item {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: hsl(215, 51%, 70%);
+    gap: 5px;
+}
+
+.second-item img{
+    width: 10%;
+}
+hr {
+    border: hsl(215, 32%, 27%);
+}
+
+.bottom-card {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 20px;
+}
+
+.bottom-card img {
+    width: 10%;
+}
+
+.bottom-card h3 {
+
+    margin: auto;
+    margin-left: 5px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: hsl(215, 51%, 70%);
+
+}
+.bottom-card span{
+    color: white;
+
+}
+.bottom-card span:hover{
+    color: hsla(178, 100%, 50%, 0.5);
+    cursor: pointer;
+}
